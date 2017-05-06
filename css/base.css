@@ -49,3 +49,12 @@ input,textarea{
     background: url("../img/sprites.png") no-repeat;
     background-size: 200px 200px;
 }
+/*顶部通栏*/
+.jd_topbar{
+    height: 45px;
+    width: 100%;
+    background: url("../img/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+}
