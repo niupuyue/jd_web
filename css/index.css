@@ -1,0 +1,78 @@
+.jd_layout{
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+/*搜索头部*/
+.jd_header{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+/*搜索头部的内容*/
+.jd_header .jd_header_box{
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    height: 40px;
+    background: rgba(201,21,32,0.85);
+}
+
+/*京东logo*/
+.jd_header .jd_header_box .icon_logo{
+    background-position: 0 -103px;
+    width: 60px;
+    height: 36px;
+    display: block;
+
+    position: absolute;
+    top:4px;
+    left: 10px;
+}
+
+/*京东搜索框*/
+.jd_header .jd_header_box form{
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 55px;
+    position: relative;
+}
+
+/*搜索按钮*/
+.icon-search{
+    background-position: -60px -109px;
+    width: 60px;
+    height: 36px;
+    display: block;
+
+    position: absolute;
+    top:10px;
+    left: 85px;
+}
+
+.jd_header_box form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+/*登录文字*/
+.jd_header .login{
+    width: 50px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #ffffff;
+
+    position: absolute;
+    top:0;
+    right: 0;
+}
