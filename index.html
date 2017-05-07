@@ -6,24 +6,27 @@
     <title>首页</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bower_components/jquery-mobile/css/themes/default/jquery.mobile.css">
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 <!--最外层的div盒子-->
-<h1>去去去啊啊啊</h1>
 <div class="jd_layout">
     <!--头部搜索-->
-    <header class="jd_header">
-        <div class="jd_header_box">
+    <header id="jd_header" class="jd_header">
+        <div id="jd_header_box" class="jd_header_box">
             <a href="#" class="icon_logo"></a>
             <form action="#">
                 <span class="icon-search"></span>
                 <input type="search" placeholder="欢度六一儿童节">
             </form>
-            <a href="#" class="login">登录</a>
+            <a href="login.html" class="login">登录</a>
         </div>
     </header>
     <!--广告轮播图-->
-    <div class="jd_banner">
+    <div id="jd_banner" class="jd_banner">
         <ul>
             <li><img src="img/l1.jpg" alt=""/></li>
             <li><img src="img/l2.jpg" alt=""/></li>
@@ -102,5 +105,38 @@
     <main class="jd_product">
     </main>
 </div>
+<!--底部样式-->
+<div class="jd_footer">
+    <table style="width: 100%">
+        <tr style="width: 100%;text-align: center">
+            <td>
+                <a href="#">
+                    <img src="img/home_fill2.png">
+                </a>
+            </td>
+            <td>
+                <a href="category.html">
+                    <img src="img/sort_light.png">
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="img/hot.png">
+                </a>
+            </td>
+            <td>
+                <a href="cart.html">
+                    <img src="img/cart_light.png">
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <img src="img/people.png">
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>
