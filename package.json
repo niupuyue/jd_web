@@ -1,0 +1,22 @@
+{
+  "name": "jd_web",
+  "version": "1.0.0",
+  "description": "仿京东移动端网页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoniudadi/jd_web.git"
+  },
+  "author": "牛谱乐",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoniudadi/jd_web/issues"
+  },
+  "homepage": "https://github.com/xiaoniudadi/jd_web#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

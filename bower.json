@@ -1,0 +1,17 @@
+{
+  "name": "jd_web",
+  "description": "仿京东移动端网页",
+  "main": "index.js",
+  "authors": [
+    "牛谱乐"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/xiaoniudadi/jd_web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
